@@ -47,7 +47,7 @@ jobs:
     - name: Run Prisma Migrations
       run: npm run prisma:migrate
 
-# Run tests
+# Run Tests
     - name: Run tests
       run: npm test
 
